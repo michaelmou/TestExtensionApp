@@ -1,0 +1,6 @@
+framework module Pods_Share_To_iLike {
+  umbrella header "Pods-Share To iLike-umbrella.h"
+
+  export *
+  module * { export * }
+}

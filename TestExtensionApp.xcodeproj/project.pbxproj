@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC3E23C196F7D3DF0AC99A0 /* Pods_Share_To_iLike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA14CF3ECFB4B35BBBA1393 /* Pods_Share_To_iLike.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		49017F001B73331B00535AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017EFF1B73331B00535AD2 /* AppDelegate.swift */; };
+		49017F021B73331B00535AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017F011B73331B00535AD2 /* ViewController.swift */; };
+		49017F051B73331B00535AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49017F031B73331B00535AD2 /* Main.storyboard */; };
+		49017F071B73331B00535AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49017F061B73331B00535AD2 /* Images.xcassets */; };
+		49017F0A1B73331B00535AD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49017F081B73331B00535AD2 /* LaunchScreen.xib */; };
+		49017F161B73331B00535AD2 /* TestExtensionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017F151B73331B00535AD2 /* TestExtensionAppTests.swift */; };
+		49017F281B73334D00535AD2 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017F271B73334D00535AD2 /* ShareViewController.swift */; };
+		49017F2A1B73334D00535AD2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49017F291B73334D00535AD2 /* MainInterface.storyboard */; };
+		49017F2D1B73334D00535AD2 /* Share To iLike.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49017F231B73334D00535AD2 /* Share To iLike.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		49017F3B1B733B6100535AD2 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017F3A1B733B6100535AD2 /* KeyboardViewController.swift */; };
+		49017F3E1B733B6100535AD2 /* TestKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49017F361B733B6100535AD2 /* TestKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		49140D821B75A89100A221C3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D68E51B74A1BA00FBB703 /* Config.swift */; };
+		494D68E61B74A1BA00FBB703 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D68E51B74A1BA00FBB703 /* Config.swift */; };
+		F727FA4D2B97D30419B27016 /* Pods_TestExtensionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E35FB94975DAE95CA4684D /* Pods_TestExtensionApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49017F101B73331B00535AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49017EF21B73331B00535AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49017EF91B73331B00535AD2;
+			remoteInfo = TestExtensionApp;
+		};
+		49017F2B1B73334D00535AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49017EF21B73331B00535AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49017F221B73334D00535AD2;
+			remoteInfo = "Share To iLike";
+		};
+		49017F3C1B733B6100535AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49017EF21B73331B00535AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49017F351B733B6100535AD2;
+			remoteInfo = TestKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49017F311B73334D00535AD2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				49017F2D1B73334D00535AD2 /* Share To iLike.appex in Embed App Extensions */,
+				49017F3E1B733B6100535AD2 /* TestKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		022BD99941045F3C623463E4 /* Pods-Share To iLike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share To iLike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Share To iLike/Pods-Share To iLike.debug.xcconfig"; sourceTree = "<group>"; };
+		49017EFA1B73331B00535AD2 /* TestExtensionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestExtensionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49017EFE1B73331B00535AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49017EFF1B73331B00535AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49017F011B73331B00535AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49017F041B73331B00535AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49017F061B73331B00535AD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49017F091B73331B00535AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49017F0F1B73331B00535AD2 /* TestExtensionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestExtensionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49017F141B73331B00535AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49017F151B73331B00535AD2 /* TestExtensionAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensionAppTests.swift; sourceTree = "<group>"; };
+		49017F231B73334D00535AD2 /* Share To iLike.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Share To iLike.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49017F261B73334D00535AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49017F271B73334D00535AD2 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		49017F291B73334D00535AD2 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		49017F361B733B6100535AD2 /* TestKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		49017F391B733B6100535AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49017F3A1B733B6100535AD2 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		493E03D11B783FB300AE0A16 /* Share To iLike.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Share To iLike.entitlements"; sourceTree = "<group>"; };
+		494D68E41B748A8A00FBB703 /* TestExtensionApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TestExtensionApp.entitlements; sourceTree = "<group>"; };
+		494D68E51B74A1BA00FBB703 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		53E35FB94975DAE95CA4684D /* Pods_TestExtensionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestExtensionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA14CF3ECFB4B35BBBA1393 /* Pods_Share_To_iLike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Share_To_iLike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36800688244A1F6FC990F88 /* Pods-TestExtensionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestExtensionApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestExtensionApp/Pods-TestExtensionApp.release.xcconfig"; sourceTree = "<group>"; };
+		BEC968FEA619C8DE1AC19E9E /* Pods-Share To iLike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share To iLike.release.xcconfig"; path = "Pods/Target Support Files/Pods-Share To iLike/Pods-Share To iLike.release.xcconfig"; sourceTree = "<group>"; };
+		F398242C4C4A7C4D2425E4E2 /* Pods-TestExtensionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestExtensionApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestExtensionApp/Pods-TestExtensionApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49017EF71B73331B00535AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F727FA4D2B97D30419B27016 /* Pods_TestExtensionApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49017F0C1B73331B00535AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49017F201B73334D00535AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC3E23C196F7D3DF0AC99A0 /* Pods_Share_To_iLike.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49017F331B733B6100535AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01272479CE7C058A3914637F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				022BD99941045F3C623463E4 /* Pods-Share To iLike.debug.xcconfig */,
+				BEC968FEA619C8DE1AC19E9E /* Pods-Share To iLike.release.xcconfig */,
+				F398242C4C4A7C4D2425E4E2 /* Pods-TestExtensionApp.debug.xcconfig */,
+				B36800688244A1F6FC990F88 /* Pods-TestExtensionApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		10B0186D4CC62B43B3119E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EA14CF3ECFB4B35BBBA1393 /* Pods_Share_To_iLike.framework */,
+				53E35FB94975DAE95CA4684D /* Pods_TestExtensionApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49017EF11B73331B00535AD2 = {
+			isa = PBXGroup;
+			children = (
+				49017EFC1B73331B00535AD2 /* TestExtensionApp */,
+				49017F121B73331B00535AD2 /* TestExtensionAppTests */,
+				49017F241B73334D00535AD2 /* Share To iLike */,
+				49017F371B733B6100535AD2 /* TestKeyboard */,
+				49017EFB1B73331B00535AD2 /* Products */,
+				01272479CE7C058A3914637F /* Pods */,
+				10B0186D4CC62B43B3119E67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49017EFB1B73331B00535AD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49017EFA1B73331B00535AD2 /* TestExtensionApp.app */,
+				49017F0F1B73331B00535AD2 /* TestExtensionAppTests.xctest */,
+				49017F231B73334D00535AD2 /* Share To iLike.appex */,
+				49017F361B733B6100535AD2 /* TestKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49017EFC1B73331B00535AD2 /* TestExtensionApp */ = {
+			isa = PBXGroup;
+			children = (
+				494D68E41B748A8A00FBB703 /* TestExtensionApp.entitlements */,
+				49017EFF1B73331B00535AD2 /* AppDelegate.swift */,
+				494D68E51B74A1BA00FBB703 /* Config.swift */,
+				49017F011B73331B00535AD2 /* ViewController.swift */,
+				49017F031B73331B00535AD2 /* Main.storyboard */,
+				49017F061B73331B00535AD2 /* Images.xcassets */,
+				49017F081B73331B00535AD2 /* LaunchScreen.xib */,
+				49017EFD1B73331B00535AD2 /* Supporting Files */,
+			);
+			path = TestExtensionApp;
+			sourceTree = "<group>";
+		};
+		49017EFD1B73331B00535AD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49017EFE1B73331B00535AD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49017F121B73331B00535AD2 /* TestExtensionAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				49017F151B73331B00535AD2 /* TestExtensionAppTests.swift */,
+				49017F131B73331B00535AD2 /* Supporting Files */,
+			);
+			path = TestExtensionAppTests;
+			sourceTree = "<group>";
+		};
+		49017F131B73331B00535AD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49017F141B73331B00535AD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49017F241B73334D00535AD2 /* Share To iLike */ = {
+			isa = PBXGroup;
+			children = (
+				493E03D11B783FB300AE0A16 /* Share To iLike.entitlements */,
+				49017F271B73334D00535AD2 /* ShareViewController.swift */,
+				49017F291B73334D00535AD2 /* MainInterface.storyboard */,
+				49017F251B73334D00535AD2 /* Supporting Files */,
+			);
+			path = "Share To iLike";
+			sourceTree = "<group>";
+		};
+		49017F251B73334D00535AD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49017F261B73334D00535AD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49017F371B733B6100535AD2 /* TestKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				49017F3A1B733B6100535AD2 /* KeyboardViewController.swift */,
+				49017F381B733B6100535AD2 /* Supporting Files */,
+			);
+			path = TestKeyboard;
+			sourceTree = "<group>";
+		};
+		49017F381B733B6100535AD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49017F391B733B6100535AD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49017EF91B73331B00535AD2 /* TestExtensionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49017F191B73331B00535AD2 /* Build configuration list for PBXNativeTarget "TestExtensionApp" */;
+			buildPhases = (
+				F4D32B1D095A5A6BC931413E /* Check Pods Manifest.lock */,
+				49017EF61B73331B00535AD2 /* Sources */,
+				49017EF71B73331B00535AD2 /* Frameworks */,
+				49017EF81B73331B00535AD2 /* Resources */,
+				49017F311B73334D00535AD2 /* Embed App Extensions */,
+				B18B63588C6CE6DAAA341347 /* Copy Pods Resources */,
+				61ED5FE80917EF17F1AC585C /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49017F2C1B73334D00535AD2 /* PBXTargetDependency */,
+				49017F3D1B733B6100535AD2 /* PBXTargetDependency */,
+			);
+			name = TestExtensionApp;
+			productName = TestExtensionApp;
+			productReference = 49017EFA1B73331B00535AD2 /* TestExtensionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49017F0E1B73331B00535AD2 /* TestExtensionAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49017F1C1B73331B00535AD2 /* Build configuration list for PBXNativeTarget "TestExtensionAppTests" */;
+			buildPhases = (
+				49017F0B1B73331B00535AD2 /* Sources */,
+				49017F0C1B73331B00535AD2 /* Frameworks */,
+				49017F0D1B73331B00535AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49017F111B73331B00535AD2 /* PBXTargetDependency */,
+			);
+			name = TestExtensionAppTests;
+			productName = TestExtensionAppTests;
+			productReference = 49017F0F1B73331B00535AD2 /* TestExtensionAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49017F221B73334D00535AD2 /* Share To iLike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49017F2E1B73334D00535AD2 /* Build configuration list for PBXNativeTarget "Share To iLike" */;
+			buildPhases = (
+				66D5FFF1826857FDBB223A82 /* Check Pods Manifest.lock */,
+				49017F1F1B73334D00535AD2 /* Sources */,
+				49017F201B73334D00535AD2 /* Frameworks */,
+				49017F211B73334D00535AD2 /* Resources */,
+				220C304FC82459E43EFFF177 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Share To iLike";
+			productName = "Share To iLike";
+			productReference = 49017F231B73334D00535AD2 /* Share To iLike.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		49017F351B733B6100535AD2 /* TestKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49017F3F1B733B6100535AD2 /* Build configuration list for PBXNativeTarget "TestKeyboard" */;
+			buildPhases = (
+				49017F321B733B6100535AD2 /* Sources */,
+				49017F331B733B6100535AD2 /* Frameworks */,
+				49017F341B733B6100535AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestKeyboard;
+			productName = TestKeyboard;
+			productReference = 49017F361B733B6100535AD2 /* TestKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49017EF21B73331B00535AD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = MichaelMou;
+				TargetAttributes = {
+					49017EF91B73331B00535AD2 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = WM7MTZYNHJ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					49017F0E1B73331B00535AD2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 49017EF91B73331B00535AD2;
+					};
+					49017F221B73334D00535AD2 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = WM7MTZYNHJ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					49017F351B733B6100535AD2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 49017EF51B73331B00535AD2 /* Build configuration list for PBXProject "TestExtensionApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49017EF11B73331B00535AD2;
+			productRefGroup = 49017EFB1B73331B00535AD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49017EF91B73331B00535AD2 /* TestExtensionApp */,
+				49017F0E1B73331B00535AD2 /* TestExtensionAppTests */,
+				49017F221B73334D00535AD2 /* Share To iLike */,
+				49017F351B733B6100535AD2 /* TestKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49017EF81B73331B00535AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49017F051B73331B00535AD2 /* Main.storyboard in Resources */,
+				49017F0A1B73331B00535AD2 /* LaunchScreen.xib in Resources */,
+				49017F071B73331B00535AD2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49017F0D1B73331B00535AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49017F211B73334D00535AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49017F2A1B73334D00535AD2 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49017F341B733B6100535AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220C304FC82459E43EFFF177 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Share To iLike/Pods-Share To iLike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61ED5FE80917EF17F1AC585C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestExtensionApp/Pods-TestExtensionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66D5FFF1826857FDBB223A82 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B18B63588C6CE6DAAA341347 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestExtensionApp/Pods-TestExtensionApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D32B1D095A5A6BC931413E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49017EF61B73331B00535AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49017F021B73331B00535AD2 /* ViewController.swift in Sources */,
+				49017F001B73331B00535AD2 /* AppDelegate.swift in Sources */,
+				494D68E61B74A1BA00FBB703 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49017F0B1B73331B00535AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49017F161B73331B00535AD2 /* TestExtensionAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49017F1F1B73334D00535AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49140D821B75A89100A221C3 /* Config.swift in Sources */,
+				49017F281B73334D00535AD2 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49017F321B733B6100535AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49017F3B1B733B6100535AD2 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49017F111B73331B00535AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49017EF91B73331B00535AD2 /* TestExtensionApp */;
+			targetProxy = 49017F101B73331B00535AD2 /* PBXContainerItemProxy */;
+		};
+		49017F2C1B73334D00535AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49017F221B73334D00535AD2 /* Share To iLike */;
+			targetProxy = 49017F2B1B73334D00535AD2 /* PBXContainerItemProxy */;
+		};
+		49017F3D1B733B6100535AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49017F351B733B6100535AD2 /* TestKeyboard */;
+			targetProxy = 49017F3C1B733B6100535AD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49017F031B73331B00535AD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49017F041B73331B00535AD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49017F081B73331B00535AD2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49017F091B73331B00535AD2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49017F171B73331B00535AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49017F181B73331B00535AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49017F1A1B73331B00535AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F398242C4C4A7C4D2425E4E2 /* Pods-TestExtensionApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestExtensionApp/TestExtensionApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TestExtensionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		49017F1B1B73331B00535AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36800688244A1F6FC990F88 /* Pods-TestExtensionApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestExtensionApp/TestExtensionApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TestExtensionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		49017F1D1B73331B00535AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestExtensionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestExtensionApp.app/TestExtensionApp";
+			};
+			name = Debug;
+		};
+		49017F1E1B73331B00535AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestExtensionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestExtensionApp.app/TestExtensionApp";
+			};
+			name = Release;
+		};
+		49017F2F1B73334D00535AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022BD99941045F3C623463E4 /* Pods-Share To iLike.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Share To iLike/Share To iLike.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Share To iLike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49017F301B73334D00535AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC968FEA619C8DE1AC19E9E /* Pods-Share To iLike.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Share To iLike/Share To iLike.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Share To iLike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		49017F401B733B6100535AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49017F411B733B6100535AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49017EF51B73331B00535AD2 /* Build configuration list for PBXProject "TestExtensionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49017F171B73331B00535AD2 /* Debug */,
+				49017F181B73331B00535AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49017F191B73331B00535AD2 /* Build configuration list for PBXNativeTarget "TestExtensionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49017F1A1B73331B00535AD2 /* Debug */,
+				49017F1B1B73331B00535AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49017F1C1B73331B00535AD2 /* Build configuration list for PBXNativeTarget "TestExtensionAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49017F1D1B73331B00535AD2 /* Debug */,
+				49017F1E1B73331B00535AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49017F2E1B73334D00535AD2 /* Build configuration list for PBXNativeTarget "Share To iLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49017F2F1B73334D00535AD2 /* Debug */,
+				49017F301B73334D00535AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49017F3F1B733B6100535AD2 /* Build configuration list for PBXNativeTarget "TestKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49017F401B733B6100535AD2 /* Debug */,
+				49017F411B733B6100535AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49017EF21B73331B00535AD2 /* Project object */;
+}
