@@ -16,8 +16,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,7 +29,7 @@ class ViewController: UIViewController {
         let userDefault = NSUserDefaults(suiteName: GROUP_ID)!
         userDefault.setObject(token, forKey: "token")
         let succeed = userDefault.synchronize()
-        println("succeed is \(succeed)")
+        print("succeed is \(succeed)")
     }
 }
 

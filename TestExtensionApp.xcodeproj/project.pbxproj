@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AC3E23C196F7D3DF0AC99A0 /* Pods_Share_To_iLike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA14CF3ECFB4B35BBBA1393 /* Pods_Share_To_iLike.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1AC3E23C196F7D3DF0AC99A0 /* Pods_Share_To_iLike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA14CF3ECFB4B35BBBA1393 /* Pods_Share_To_iLike.framework */; };
 		49017F001B73331B00535AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017EFF1B73331B00535AD2 /* AppDelegate.swift */; };
 		49017F021B73331B00535AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017F011B73331B00535AD2 /* ViewController.swift */; };
 		49017F051B73331B00535AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49017F031B73331B00535AD2 /* Main.storyboard */; };
@@ -16,12 +16,11 @@
 		49017F161B73331B00535AD2 /* TestExtensionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017F151B73331B00535AD2 /* TestExtensionAppTests.swift */; };
 		49017F281B73334D00535AD2 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017F271B73334D00535AD2 /* ShareViewController.swift */; };
 		49017F2A1B73334D00535AD2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49017F291B73334D00535AD2 /* MainInterface.storyboard */; };
-		49017F2D1B73334D00535AD2 /* Share To iLike.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49017F231B73334D00535AD2 /* Share To iLike.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		49017F3B1B733B6100535AD2 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49017F3A1B733B6100535AD2 /* KeyboardViewController.swift */; };
-		49017F3E1B733B6100535AD2 /* TestKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49017F361B733B6100535AD2 /* TestKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		49140D821B75A89100A221C3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D68E51B74A1BA00FBB703 /* Config.swift */; };
 		494D68E61B74A1BA00FBB703 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D68E51B74A1BA00FBB703 /* Config.swift */; };
-		F727FA4D2B97D30419B27016 /* Pods_TestExtensionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E35FB94975DAE95CA4684D /* Pods_TestExtensionApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4C95EC611C8D74D000A97326 /* Share To iLike.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49017F231B73334D00535AD2 /* Share To iLike.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F727FA4D2B97D30419B27016 /* Pods_TestExtensionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E35FB94975DAE95CA4684D /* Pods_TestExtensionApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,31 +31,23 @@
 			remoteGlobalIDString = 49017EF91B73331B00535AD2;
 			remoteInfo = TestExtensionApp;
 		};
-		49017F2B1B73334D00535AD2 /* PBXContainerItemProxy */ = {
+		4C95EC621C8D74D000A97326 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 49017EF21B73331B00535AD2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 49017F221B73334D00535AD2;
 			remoteInfo = "Share To iLike";
 		};
-		49017F3C1B733B6100535AD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 49017EF21B73331B00535AD2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 49017F351B733B6100535AD2;
-			remoteInfo = TestKeyboard;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		49017F311B73334D00535AD2 /* Embed App Extensions */ = {
+		4C95EC641C8D74D000A97326 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				49017F2D1B73334D00535AD2 /* Share To iLike.appex in Embed App Extensions */,
-				49017F3E1B733B6100535AD2 /* TestKeyboard.appex in Embed App Extensions */,
+				4C95EC611C8D74D000A97326 /* Share To iLike.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,15 +248,14 @@
 				49017EF61B73331B00535AD2 /* Sources */,
 				49017EF71B73331B00535AD2 /* Frameworks */,
 				49017EF81B73331B00535AD2 /* Resources */,
-				49017F311B73334D00535AD2 /* Embed App Extensions */,
 				B18B63588C6CE6DAAA341347 /* Copy Pods Resources */,
 				61ED5FE80917EF17F1AC585C /* Embed Pods Frameworks */,
+				4C95EC641C8D74D000A97326 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49017F2C1B73334D00535AD2 /* PBXTargetDependency */,
-				49017F3D1B733B6100535AD2 /* PBXTargetDependency */,
+				4C95EC631C8D74D000A97326 /* PBXTargetDependency */,
 			);
 			name = TestExtensionApp;
 			productName = TestExtensionApp;
@@ -299,6 +289,7 @@
 				49017F201B73334D00535AD2 /* Frameworks */,
 				49017F211B73334D00535AD2 /* Resources */,
 				220C304FC82459E43EFFF177 /* Copy Pods Resources */,
+				9B28A0C7F07545045E7E9A12 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,12 +323,14 @@
 		49017EF21B73331B00535AD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = MichaelMou;
 				TargetAttributes = {
 					49017EF91B73331B00535AD2 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = WM7MTZYNHJ;
+						DevelopmentTeam = 9AC24BAB9K;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -350,7 +343,7 @@
 					};
 					49017F221B73334D00535AD2 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = WM7MTZYNHJ;
+						DevelopmentTeam = 9AC24BAB9K;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -464,6 +457,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		9B28A0C7F07545045E7E9A12 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Share To iLike/Pods-Share To iLike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B18B63588C6CE6DAAA341347 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -540,15 +548,10 @@
 			target = 49017EF91B73331B00535AD2 /* TestExtensionApp */;
 			targetProxy = 49017F101B73331B00535AD2 /* PBXContainerItemProxy */;
 		};
-		49017F2C1B73334D00535AD2 /* PBXTargetDependency */ = {
+		4C95EC631C8D74D000A97326 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 49017F221B73334D00535AD2 /* Share To iLike */;
-			targetProxy = 49017F2B1B73334D00535AD2 /* PBXContainerItemProxy */;
-		};
-		49017F3D1B733B6100535AD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 49017F351B733B6100535AD2 /* TestKeyboard */;
-			targetProxy = 49017F3C1B733B6100535AD2 /* PBXContainerItemProxy */;
+			targetProxy = 4C95EC621C8D74D000A97326 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -593,6 +596,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -608,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -646,7 +650,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -661,8 +665,10 @@
 				CODE_SIGN_ENTITLEMENTS = TestExtensionApp/TestExtensionApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TestExtensionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Michael.TestExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -676,8 +682,10 @@
 				CODE_SIGN_ENTITLEMENTS = TestExtensionApp/TestExtensionApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TestExtensionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Michael.TestExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -697,6 +705,7 @@
 				);
 				INFOPLIST_FILE = TestExtensionAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestExtensionApp.app/TestExtensionApp";
 			};
@@ -712,6 +721,7 @@
 				);
 				INFOPLIST_FILE = TestExtensionAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestExtensionApp.app/TestExtensionApp";
 			};
@@ -730,6 +740,7 @@
 				);
 				INFOPLIST_FILE = "Share To iLike/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael.TestExtensionApp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -745,6 +756,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Share To iLike/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael.TestExtensionApp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -760,6 +772,7 @@
 				);
 				INFOPLIST_FILE = TestKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael.TestExtensionApp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -770,6 +783,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = TestKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael.TestExtensionApp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

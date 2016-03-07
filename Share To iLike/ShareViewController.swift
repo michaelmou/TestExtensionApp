@@ -37,10 +37,10 @@ class ShareViewController: SLComposeServiceViewController {
 
                             if let identifier = type as? String{
                                 
-                                itemProvider.loadItemForTypeIdentifier(identifier, options: nil, completionHandler: { (data:NSSecureCoding!, error:NSError!) -> Void in
-                                    println("identifier:\(identifier)")
-                                    println("data:\(data)")
-                                    println("error:\(error)")
+                                itemProvider.loadItemForTypeIdentifier(identifier, options: nil, completionHandler: { (data, error) -> Void in
+                                    print("identifier:\(identifier)")
+                                    print("data:\(data)")
+                                    print("error:\(error)")
                                 })
                             }
                         }
@@ -63,7 +63,7 @@ class ShareViewController: SLComposeServiceViewController {
         var items = [AnyObject]()
         
         if let token = self.token{
-            
+            print("token\(token)")
         }else{
             let item = SLComposeSheetConfigurationItem()
             item.title = "未登录？ 请先打开iLike登录"
@@ -78,7 +78,7 @@ class ShareViewController: SLComposeServiceViewController {
     
     func itemsRecieved(userInfo:AnyObject!) -> Void{
         
-        println("userInfo:\(userInfo)")
+        print("userInfo:\(userInfo)")
         
     }
 
